@@ -2124,7 +2124,7 @@ $(document).ready(function() { "use strict";
 
 
 window.isMobile = false;
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { window.isMobile = true; alert("For the best experience, please switch to desktop mode."); }
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { alert("For the best experience, please switch to desktop mode."); }
 
 //Detect Mobile
 if(window.isMobile){$html.addClass('mobile');}else{$html.addClass('desktop');}
